@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/*
+    Estilos generales para que las etiquetas no contengan propiedades
+    que nos estorben y en todos los navegadores se vean correctamente
+*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+}
+
+video {
+  display: flex;
+  object-fit: cover;
+  object-position: center center;
+}
+
+audio {
+  display: flex;
+}
+
+p a {
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+}
+
+table, tr, td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: normal normal normal 100%/140% Fakt Pro Medium, "Roboto", sans-serif;
+  -webkit-hyphens: auto;
+          hyphens: auto;
+  color: #181818;
+  background: #e7e7e7;
+  /* font-smooth: always;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  -webkit-hyphens: auto;
+          hyphens: auto;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+form input, form textarea, form select {
+  font: normal normal normal 100%/140% Fakt Pro Medium, "Roboto", sans-serif;
+  -webkit-hyphens: auto;
+          hyphens: auto;
+  background-color: transparent;
+  -webkit-appearance: none;
+          appearance: none;
+  display: block;
+}
+
+/* 
+    5 claves a tener en cuenta:
+    👉 ¿Es un texto o una caja? 
+    👉 ¿Es un 1 etiquetas o muchas?
+    👉 ¿Qué position tiene? 
+    👉 ¿Uso float o flex? 
+    👉 ¿Uso margin o calc()?
+*/
+/* Centrar 1 etiqueta en horizontal en static o relative */
+/* Centrar muchas etiquetas en horizontal en static o relative */
+/* Centrar etiquetas en horizontal con flex */
+/* Centrar 1 etiqueta en vertical en static o relative */
+/* Centrar etiquetas en vertical con flex */
+/* Centrar 1 etiqueta en horizontal con float */
+/* Centrar muchas etiqueta en horizontal con float */
+/* Centrar en vertical una etiqueta  */
+/* Como centrar en horizontal en flex */
+/* Como centrar en vertical en flex */
+/* Centrar con margin un absolute en horizontal con píxeles */
+/* Centrar con margin un absolute en horizontal con porcentaje */
+/* Centrar con margin un absolute en vertical con pixeles */
+/* Centrar con margin un absolute en vertical con porcentaje */
+/* Centrar con calc() un absolute en horizontal con píxeles */
+/* Centrar con calc() un absolute en horizontal con porcentaje */
+/* Centrar con calc() un absolute en vertical con pixeles */
+/* Centrar con calc() un absolute en vertical con porcentaje */
