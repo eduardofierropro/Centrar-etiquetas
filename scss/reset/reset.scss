@@ -13,6 +13,11 @@ li{list-style-type: none;}
 table , tr , td {border-collapse: collapse;border-spacing: 0;}
 html{scroll-behavior: smooth;}
 
-body{ font:$font-ppal; hyphens: auto; color:$color-base; background:$color-inverso; /* font-smooth: always;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale; */ }
+body{ font:$font-ppal; hyphens: auto; color:$color-base; background:$color-inverso; /* font-smooth: always;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale; */ padding:1em;}
 h1 , h2, h3 , h4 , h5, h6{ hyphens: auto; color: inherit; font-size:inherit; font-weight: inherit; }
 form{ input , textarea , select { font:$font-ppal; hyphens: auto; background-color: transparent; appearance: none; display: block; } }
+
+
+body{
+    min-height: 700vh;
+}

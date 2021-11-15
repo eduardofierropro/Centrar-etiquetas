@@ -6,206 +6,219 @@
     👉 ¿Es un 1 etiquetas o muchas?
     👉 ¿Qué position tiene? 
     👉 ¿Uso float o flex? 
-    👉 ¿Uso margin o calc()?
+    👉 ¿Uso margin, calc() o transform?
 */
 
-/* Centrar 1 etiqueta en horizontal en static o relative */
-
-
-
-
-
-
-
-
-
-
-
-
-/* Centrar muchas etiquetas en horizontal en static o relative */
-
-
-
-
-
-
-
-
-
-
-/* Centrar etiquetas en horizontal con flex */
-
-
-
-
-
-
-
-
-
-
-/* Centrar 1 etiqueta en vertical en static o relative */
-
-
-
-
-
-
-
-
-
-
-/* Centrar etiquetas en vertical con flex */
-
-
-
-
-
-
-
-
-
-
-/* Centrar 1 etiqueta en horizontal con float */
-
-
-
-
-
-
-
-
-
-
-/* Centrar muchas etiqueta en horizontal con float */
-
-
-
-
-
-
-
-
-
-
-/* Centrar en vertical una etiqueta  */
-
-
-
-
-
-
-
-
-
-
-/* Como centrar en horizontal en flex */
-
-
-
-
-
-
-
-
-
-
-/* Como centrar en vertical en flex */
-
-
-
-
-
-
-
-
-
-
-/* Centrar con margin un absolute en horizontal con píxeles */
-
-
-
-
-
-
-
-
-
-
-/* Centrar con margin un absolute en horizontal con porcentaje */
-
-
-
-
-
-
-
-
-
-
-/* Centrar con margin un absolute en vertical con pixeles */
-
-
-
-
-
-
-
-
-
-
-/* Centrar con margin un absolute en vertical con porcentaje */
-
-
-
-
-
-
-
-
-
-
-/* Centrar con calc() un absolute en horizontal con píxeles */
-
-
-
-
-
-
-
-
-
-
-/* Centrar con calc() un absolute en horizontal con porcentaje */
-
-
-
-
-
-
-
-
-
-
-/* Centrar con calc() un absolute en vertical con pixeles */
-
-
-
-
-
-
-
-
-
-
-/* Centrar con calc() un absolute en vertical con porcentaje */
-
-
-
-
-
-
-
-
-
-
+/* Estilos por defecto para que se vea "bien" */
+.contenedora{
+    width:90%;
+    background:lightgray;
+    border-radius: .5rem;
+    margin: 1em auto;
+}
+.item{
+    background:orange;
+    border-radius: .5rem;
+}
+
+/* ¿Si es un texto? */
+.contenedora1{
+    text-align: center;
+    padding: 5em 0;
+}
+
+
+/* Position:Static y Relative */
+    /* Centrar en clásica 1 etiqueta en horizontal */
+    .contenedora2{}
+    .contenedora2 .item{
+        width:40%;
+        
+        margin: 0 auto;
+    }
+
+
+    /* Centrar en clásica +1 (muchas) etiquetas en horizontal*/
+    .contenedora3{}
+    .contenedora3::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .contenedora3 .item{
+        width: calc( 25% - 2em );
+        float:left;
+        margin: 0 1em;
+    }
+
+
+    /* Centrar en clásica 1 etiqueta en vertical */
+    .contenedora4{
+        padding:5em 0;
+    }
+    .contenedora4 .item{
+        width:40%;
+    } 
+
+
+    /* Centrar en clásica +1 (muchas) etiquetas en vertical*/
+    .contenedora5{
+        padding:5em 0;
+    }
+    .contenedora5::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .contenedora5 .item{
+        width:calc( 25% - 2em );
+        float:left;
+        margin: 0 1em;
+    } 
+
+
+    /* Centrar con flex en horizontal */
+    .contenedora6{
+        display:flex;
+        justify-content: center;
+    }
+    .contenedora6 .item{
+        width:20%;
+    } 
+
+
+    /* Centrar con flex en vertical */
+    .contenedora7{
+        min-height: 20vh;
+
+        display: flex;
+        align-items: center;
+    }
+    .contenedora7 .item{
+        width:20%;
+    }
+
+
+
+/* Position: Absolute y Fixed */
+    /* Centrar en horizontal con margin con píxeles */
+        .contenedora8{
+            min-height: 30vh;
+
+            position: relative;
+        }
+        .contenedora8 .item{
+            width:5em;
+            height:5em;
+
+            position: absolute;
+            left:50%;
+            margin-left:-2.5em;
+        } 
+
+
+    /* Centrar en vertical con margin con pixeles */
+    .contenedora9{
+        min-height: 30vh;
+
+        position: relative;
+    }
+    .contenedora9 .item{
+        width:200px;
+        height:200px;
+
+        position: absolute;
+        top:50%;
+        margin-top: -100px;
+    }
+
+
+    /* Centrar en horizontal con calc() con píxeles */
+    .contenedora10{
+        min-height: 30vh;
+
+        position: relative;
+    }
+    .contenedora10 .item{
+        width:200px;
+        height: 200px;
+
+        position: absolute;
+        left:calc( 50% - 100px );
+    } 
+
+
+    /* Centrar en vertical con calc() con pixeles */
+    .contenedora11{
+        min-height: 30vh;
+
+        position: relative;
+    }
+    .contenedora11 .item{
+        width:200px;
+        height:200px;
+
+        position: absolute;
+        top:calc( 50% - 100px );
+    }
+ 
+
+    /* Centrar en horizontal con porcentaje */
+    .contenedora12{
+        min-height: 30vh;
+
+        position: relative;
+    }
+    .contenedora12 .item{
+        width:50%;
+        height: 60%;
+
+        position: absolute;
+        left:25%;
+    }
+
+
+    /* Centrar en vertical con porcentaje */
+    .contenedora13{
+        min-height: 30vh;
+
+        position: relative;
+    }
+    .contenedora13 .item{
+        width:50%;
+        height:60%;
+
+        position: absolute;
+        top:20%;
+    }
+
+
+    /* Centrar en horizontal con transform */
+    .contenedora14{
+        min-height: 30vh;
+        position: relative;
+    }
+    .contenedora14 .item{
+        width: 10em;
+        height: 200px;
+
+        position: absolute;
+        left:50%;
+        transform: translateX(-50%);
+    }
+
+
+    /* Centrar en vertical con transform */
+    .contenedora15{
+        min-height: 30vh;
+        position: relative;
+    }
+    .contenedora15 .item{
+        width:200px;
+        height:60%;
+
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
