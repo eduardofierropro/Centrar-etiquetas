@@ -1,5 +1,5 @@
 ## Descripción
-Código de ejemplo para el vídeo en Youtube sobre Carrousel: [https://youtu.be/-xQ_SjDsGK4](https://youtu.be/-xQ_SjDsGK4).
+Código de ejemplo para el vídeo en Youtube sobre Centrar etiquetas en HTMl y CSS con respecto al position: [https://youtu.be/-xQ_SjDsGK4](https://youtu.be/-xQ_SjDsGK4).
 
 No ha sido probado para tener soporte crossbrowsing.
 Si te ha gustado o te ha servido coméntalo en un directo o sígueme por Twitch y Youtube 😊
@@ -8,7 +8,7 @@ Si te ha gustado o te ha servido coméntalo en un directo o sígueme por Twitch 
 Para ver proyecto en directo puedes verlo aquí [https://eduardofierropro.github.io/Centrar-etiquetas/](https://eduardofierropro.github.io/Centrar-etiquetas/)
 
 ## Tiempo de programación ⏰
-Este ejemplo ha sido programado en aproximadamente 15 minutos al grabar el vídeo de Youtube: [https://youtu.be/-xQ_SjDsGK4](https://youtu.be/-xQ_SjDsGK4)
+Este ejemplo ha sido programado en aproximadamente 30 minutos al grabar el vídeo de Youtube: [https://youtu.be/-xQ_SjDsGK4](https://youtu.be/-xQ_SjDsGK4)
 
 ## Uso 🚀
 ¡Mira el código, modifícalo y disfruta!
@@ -31,7 +31,7 @@ Es un código programado en directo para entretenimiento.
 ## Master/Cursos donde sor profesor 📚
 Soy profesor en la Escuela Trazos donde impartimos Cursos y Másters sobre desarrollo web con una bolsa de trabajo con Alta Empleabilidad. ¡Píde información sobre los cursos donde soy profesor desde este enlace!
 
-👉[https://trazos.net/contacto-eduardofierro](https://trazos.net/contacto-eduardofierro)
+👉[http://colaboracion.eduardofierro.pro/](http://colaboracion.eduardofierro.pro/)
 
 ## Licencia 📄
 MIT Public License v3.0
