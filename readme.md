@@ -1,5 +1,5 @@
 ## Descripción
-Código de ejemplo para el vídeo en Youtube sobre Centrar etiquetas en HTMl y CSS con respecto al position: [https://youtu.be/-xQ_SjDsGK4](https://youtu.be/-xQ_SjDsGK4).
+Código de ejemplo para el vídeo en Youtube sobre Centrar etiquetas en HTML y CSS con respecto al position: [https://youtu.be/-xQ_SjDsGK4](https://youtu.be/-xQ_SjDsGK4).
 
 No ha sido probado para tener soporte crossbrowsing.
 Si te ha gustado o te ha servido coméntalo en un directo o sígueme por Twitch y Youtube 😊
