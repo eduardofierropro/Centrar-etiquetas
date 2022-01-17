@@ -27,6 +27,7 @@ Es un código programado en directo para entretenimiento.
 * [Github](https://github.com/eduardofierropro)
 * [Instagram](https://instagram.com/eduardofierro.pro)
 * [Twitter](https://twitter.com/edfierropro)
+* [Discord](https://discord.gg/t4Txush)
 
 ## Master/Cursos donde sor profesor 📚
 Soy profesor en la Escuela Trazos donde impartimos Cursos y Másters sobre desarrollo web con una bolsa de trabajo con Alta Empleabilidad. ¡Píde información sobre los cursos donde soy profesor desde este enlace!
