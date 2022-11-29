@@ -1,14 +1,5 @@
 @import "imports/_mixins", "imports/_variables", "imports/_reset", "imports/_keyframes";
 
-/* 
-    5 claves a tener en cuenta:
-    👉 ¿Es un texto o una caja? 
-    👉 ¿Es un 1 etiquetas o muchas?
-    👉 ¿Qué position tiene? 
-    👉 ¿Uso float o flex? 
-    👉 ¿Uso margin, calc() o transform?
-*/
-
 /* Estilos por defecto para que se vea "bien" */
 .contenedora{
     width:90%;
