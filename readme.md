@@ -13,7 +13,6 @@ Aquí tienes el código de ejemplo para centrar etiquetas con diferentes técnic
 Si te ha gustado o te ha servido coméntalo en un directo o sígueme por Twitch y Youtube 😊
 
 [![Youtube](https://img.shields.io/static/v1?label=&message=ver%20en%20youtube&color=FF0000&logo=youtube&logoColor=white&style=for-the-badge)](https://youtu.be/-xQ_SjDsGK4)
-[![github](https://img.shields.io/static/v1?label=&message=github&color=171515&logo=github&logoColor=white&style=for-the-badge)](https://eduardofierropro.github.io/Centrar-etiquetas/)
 
 ## Potencia y prepara tu portfolio como dev
 
